@@ -5,6 +5,7 @@ ruby '2.7.0'
 
 gem 'carrierwave'
 gem 'mini_magick'
+gem 'devise', git: 'https://github.com/heartcombo/devise.git'
 #bootstrap
 gem 'bootstrap', '~> 4.4.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
