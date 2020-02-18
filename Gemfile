@@ -2,6 +2,9 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.7.0'
+
+gem 'carrierwave'
+gem 'mini_magick'
 #bootstrap
 gem 'bootstrap', '~> 4.4.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

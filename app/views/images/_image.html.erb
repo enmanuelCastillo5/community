@@ -1,6 +1,7 @@
-<div class="col">
+<div class="col-4">
   <figure class="figure">
-    <img src="https://getuikit.com/v2/docs/images/placeholder_600x400.svg" class="figure-img img-fluid rounded">
+    <!-- <img src="https://getuikit.com/v2/docs/images/placeholder_600x400.svg" class="figure-img img-fluid rounded"> -->
+    <%= image_tag image.picture.thumb.url, class: 'figure-img img-fluid rounded' %>
     <figcaption class="figure-caption"><%= image.description%>
     <%= link_to 'Edit', edit_image_path(image) %>
     <%= link_to 'Destroy', image, method: :delete, data: {confirm: 'estas seguro?'} %></figcaption>
