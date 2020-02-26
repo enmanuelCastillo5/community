@@ -5,6 +5,7 @@ ruby '2.7.0'
 
 gem 'carrierwave'
 gem 'mini_magick'
+gem 'will_paginate', '~> 3.1.0'
 gem 'devise', git: 'https://github.com/heartcombo/devise.git'
 #bootstrap
 gem 'bootstrap', '~> 4.4.1'
